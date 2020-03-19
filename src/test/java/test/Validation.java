@@ -16,7 +16,7 @@ public class Validation {
     public static void main(String[] args) {
         DMNValidator validator = DMNValidatorFactory.newValidator();
         InputStream dmn = Validation.class.getResourceAsStream("/masked-rules.dmn");
-        List<DMNMessage> messages = validator.validate(new InputStreamReader(dmn));
+        List<DMNMessage> messages = validator.validate(new InputStreamReader(dmn), DMNValidator.Validation.ANALYZE_DECISION_TABLE);
 
         for (DMNMessage dmnMessage : messages) {
             System.out.println(dmnMessage);
