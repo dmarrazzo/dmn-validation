@@ -341,7 +341,7 @@
     </scesimData>
   </background>
   <settings>
-    <dmnFilePath>src/main/resources/com/myspace/validations/masked-rules.dmn</dmnFilePath>
+    <dmnFilePath>src/main/resources/masked-rules.dmn</dmnFilePath>
     <type>DMN</type>
     <dmnNamespace>https://kiegroup.org/dmn/validation</dmnNamespace>
     <dmnName>masked-rules</dmnName>
