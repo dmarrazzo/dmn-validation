@@ -1,4 +1,4 @@
-Repository Init Content
+DMN Validation
 =======================
 
-Your project description here.
+Project to explore DMN validation features
